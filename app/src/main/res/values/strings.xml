@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Glovez</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feed_news">Feed</string>
+    <string name="popular_news">Popular</string>
+    <string name="search_news">Search</string>
+</resources>
