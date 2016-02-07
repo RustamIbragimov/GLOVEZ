@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.rustam.glovez.fragments.profile.StatisticsFragment">
+    tools:context="com.rustam.glovez.fragments.profile.StatisticsFragment"
+    android:background="#E8E8E8">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/statistics_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Statistics" />
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
 </FrameLayout>

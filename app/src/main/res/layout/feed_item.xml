@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/feed_upper_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E8E8"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/feed_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:textColor="#323232"
+            android:text="\@arstankz" />
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/feed_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        android:layout_below="@+id/feed_upper_layout"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/feed_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/feed_photo"
+        android:layout_alignStart="@+id/feed_photo"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>
